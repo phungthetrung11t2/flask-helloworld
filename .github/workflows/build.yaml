@@ -21,7 +21,7 @@ jobs:
 
       - name: build and Push Docker Image
         uses: docker/build-push-action@v2
-        id: docker_buildx
+        id: docker_build
         with:
           context: ./
           file: ./Dockerfile
